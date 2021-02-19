@@ -3,7 +3,7 @@
 V6R (short for vvvvvvar) is a programming language I built for no good reason. It is limited in use and application.
 V6R contains one "Interpreter" class (and various supporting logics) to be used for reading in .txt files and interpreting them as some new code, executable in python3, effectively a V6R compiler.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Ik8WHY8vNHE)
 
 # Syntax
 
