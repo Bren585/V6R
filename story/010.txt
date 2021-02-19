@@ -1,0 +1,5 @@
+$speak("Console", "Creating new User...");
+$speak("Console", "Collecting User Data.");
+$speak("Console", "Missing Username.");
+$pause();
+$jump("011.txt");

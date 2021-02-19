@@ -1,0 +1,11 @@
+$announce("Loading save file...");
+%save = $loadFile();
+$if (%save != '010.txt')
+{
+    %username = $loadUser();
+    %user = %%username;
+};
+$announce("Load complete.");
+$input("Press enter to continue.");
+$clear();
+$jump(%save);

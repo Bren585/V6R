@@ -1,0 +1,21 @@
+$speak("Console", "User, what is your name?");
+%name = $input(" : ");
+$clear();
+$speak("Console", "Setting Username to %name +. Awaiting User confirmation.");
+%choice = $input("(Y/N) : ");
+$if (%choice == 'Y')
+{
+    $speak("Console", "Username generated.");
+    $speak("Console", "Missing gender.");
+    $pause();
+    $jump("012.txt");
+};
+$if (%choice == 'N')
+{
+    $speak("Console", "Understood. Re-attempting data collection.");
+    $pause();
+    $jump("011.txt");
+};
+$speak("Console", "Input uncertain. Please try again.");
+$pause();
+$jump("011.txt");

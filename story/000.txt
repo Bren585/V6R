@@ -1,0 +1,10 @@
+
+%var = "Hello World!";
+%vvar = "var";
+%vvvar = "vvar";
+%vvvvar = "vvvar";
+%vvvvvar = "vvvvar";
+%vvvvvvar = "vvvvvar";
+$print(%%%%%vvvvvar);
+
+$stop();
